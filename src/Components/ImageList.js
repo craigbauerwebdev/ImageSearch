@@ -1,5 +1,15 @@
-function SearchBar() {
-  return <div className="search">Search Bar</div>;
+function ImageList({ searchResults }) {
+  console.log("Search Results: ", searchResults);
+  const renderImages = () => {
+    searchResults.map(images => {
+        
+    })
+  }
+  return (
+    <>
+    {renderImages}
+    </>
+  );
 }
 
-export default SearchBar;
+export default ImageList;
