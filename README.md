@@ -17,3 +17,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## !important
+
+To get this app working, inside the src folder you need to add a folder called keys with a file called index.js inside and add this code:
+`export const accessKey = "your access key from unsplash.com";`
+and rum `npm install`

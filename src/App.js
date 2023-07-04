@@ -2,7 +2,7 @@ import { useState } from "react";
 import ImageList from "./Components/ImageList";
 import SearchBar from "./Components/SearchBar";
 import searchImages from "./api";
-import { accessKey } from "./keys/keys";
+import { accessKey } from "./keys";
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
