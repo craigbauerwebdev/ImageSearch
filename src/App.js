@@ -14,9 +14,8 @@ function App() {
 
   return (
     <div className="App">
-      App test
       <SearchBar onSubmit={handleSubmit} />
-      <ImageList searchResults={searchResults} />
+      <ImageList images={searchResults} />
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.image-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
+}
